@@ -350,23 +350,21 @@ function dropItem(enemy) {
     let accumulatedChance = dropPool.noDropChance;
     for (const drop of dropPool.items) {
         if (roll < accumulatedChance + drop.chance) {
-            const item = ITEMS[drop.id];
-            if (item) {
+            const itemData = ITEMS[drop.id];
+            if (itemData) {
                 const quantity = drop.quantity ? 
                     Math.floor(Math.random() * (drop.quantity.max - drop.quantity.min + 1)) + drop.quantity.min :
                     1;
                     
-                const itemData = ITEMS[drop.id];
-                if (itemData) {
-                    items.push({
-                        ...itemData,
-                        id: drop.id,
-                        name: itemData.name, // Garantir que o nome seja incluído
-                        quantity: quantity,
-                        x: enemy.x,
-                        y: enemy.y
-                    });
-                }
+                items.push({
+                    ...itemData,
+                    id: drop.id,
+                    name: itemData.name,
+                    type: itemData.type,
+                    quantity: quantity,
+                    x: enemy.x,
+                    y: enemy.y
+                });
             }
             break;
         }
