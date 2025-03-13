@@ -1,0 +1,29 @@
+{
+  "drops": {
+    "goblin": {
+      "items": [
+        {
+          "id": "sword",
+          "chance": 1
+        },
+        {
+          "id": "armor",
+          "chance": 0.05
+        },
+        {
+          "id": "potion",
+          "chance": 0.3
+        },
+        {
+          "id": "gold",
+          "chance": 0.5,
+          "quantity": {
+            "min": 1,
+            "max": 10
+          }
+        }
+      ],
+      "noDropChance": 0.2
+    }
+  }
+}

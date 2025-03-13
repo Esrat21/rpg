@@ -1,0 +1,33 @@
+{
+  "items": {
+    "sword": {
+      "name": "Espada Simples",
+      "type": "weapon",
+      "damage": 3,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "armor": {
+      "name": "Armadura de Couro",
+      "type": "armor",
+      "defense": 2,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "potion": {
+      "name": "Poção de Cura",
+      "type": "consumable",
+      "effect": "heal",
+      "value": 10,
+      "stackable": true,
+      "maxStack": 10
+    },
+    "gold": {
+      "name": "Moedas de Ouro",
+      "type": "currency",
+      "value": 1,
+      "stackable": true,
+      "maxStack": 999
+    }
+  }
+}
