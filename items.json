@@ -1,15 +1,73 @@
 {
   "items": {
-    "sword": {
-      "name": "Espada Simples",
+    "sword_one_hand": {
+      "name": "Espada de Uma Mão",
       "type": "weapon",
+      "subtype": "one_hand",
       "damage": 3,
       "stackable": false,
       "maxStack": 1
     },
-    "armor": {
-      "name": "Armadura de Couro",
+    "sword_two_hand": {
+      "name": "Espada de Duas Mãos",
+      "type": "weapon",
+      "subtype": "two_hand",
+      "damage": 5,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "helmet": {
+      "name": "Capacete de Ferro",
       "type": "armor",
+      "subtype": "helmet",
+      "defense": 2,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "chest_armor": {
+      "name": "Armadura de Ferro",
+      "type": "armor",
+      "subtype": "chest",
+      "defense": 4,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "boots": {
+      "name": "Botas de Ferro",
+      "type": "armor",
+      "subtype": "boots",
+      "defense": 1,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "gloves": {
+      "name": "Luvas de Ferro",
+      "type": "armor",
+      "subtype": "gloves",
+      "defense": 1,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "ring": {
+      "name": "Anel de Ferro",
+      "type": "accessory",
+      "subtype": "ring",
+      "defense": 1,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "bracelet": {
+      "name": "Bracelete de Ferro",
+      "type": "accessory",
+      "subtype": "bracelet",
+      "defense": 1,
+      "stackable": false,
+      "maxStack": 1
+    },
+    "amulet": {
+      "name": "Amuleto de Ferro",
+      "type": "accessory",
+      "subtype": "amulet",
       "defense": 2,
       "stackable": false,
       "maxStack": 1
